@@ -8,9 +8,9 @@ public class GameBoard {
     }
 
     public boolean isEmpty() {
-        for (int i = 0; i < 3; i++)
-            for(int j = 0; j < 3; j++)
-                if (layout[i][j] != '\0')
+        for (int column = 0; column < 3; column++)
+            for(int row = 0; row < 3; row++)
+                if (layout[column][row] != '\0')
                     return false;
         return true;
     }
