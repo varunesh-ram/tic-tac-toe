@@ -14,4 +14,12 @@ public class GameBoard {
                     return false;
         return true;
     }
+
+    public void mark(int column, int row) {
+        layout[column][row] = 'X';
+    }
+
+    public char getTokenAt(int column, int row) {
+        return layout[column][row];
+    }
 }
