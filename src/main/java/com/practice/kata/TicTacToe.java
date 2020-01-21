@@ -1,7 +1,8 @@
 package com.practice.kata;
 
 public class TicTacToe {
-    public void startGame() {
+    public GameBoard startGame() {
         GameBoard gameBoard = new GameBoard();
+        return gameBoard;
     }
 }
